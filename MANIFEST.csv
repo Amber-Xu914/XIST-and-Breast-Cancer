@@ -1,0 +1,15 @@
+path,role,selection_reason
+scripts/00_data_acquisition/rq3_download_tcga_cdr_survival_endpoints.R,TCGA-CDR endpoint acquisition,Current endpoint download script used by the V4 PFI workflow
+scripts/01_xist_and_os/XIST_5subtypes_boxplot.R,XIST descriptive analysis,Latest non-backup PAM50/normal XIST boxplot script
+scripts/01_xist_and_os/xist_os_km_univariable_cox.R,XIST OS analysis,Current Kaplan-Meier and univariable Cox script
+scripts/01_xist_and_os/xist_os_multivariable_cox.R,XIST OS analysis,Current multivariable Cox script
+scripts/01_xist_and_os/xist_os_pam50_stratified_interaction_cox.R,XIST OS analysis,Current PAM50-stratified and interaction Cox script
+scripts/02_v4_score/rq1_version4_xci_linked.R,V4 score construction,Final 20-gene subject-to-XCI expression methylation and CNV score
+scripts/02_v4_score/rq1_plot_v4_xci_linked_score.R,V4 validation and plots,Latest V4 component subtype stage and XIST analysis
+scripts/03_genomic_instability/rq2_v4_quartile_analysis_script.R,RQ2 genomic instability and driver analysis,Final V4 continuous and quartile workflow
+scripts/04_tp53_and_pfi/a3_rq1_XCI_plot.R,Aim 3 TP53 analysis,Retained for the full-score-cohort TP53 and mutation-type results
+scripts/04_tp53_and_pfi/a3_rq2_adjusted_TP53_XCI.R,Aim 3 adjusted TP53 analysis,Retained for the clinically and PAM50-adjusted TP53 model
+scripts/04_tp53_and_pfi/rerun_pfi_restricted_final_analyses.R,Final TP53 interaction and PFI workflow,Newest combined final analysis script dated 10 August 2026
+scripts/05_final_figures/regenerate_updated_subject_xci_figures.R,Final thesis figures,Newest figure-regeneration script after the 20-gene panel update
+resources/xci_linked_genes.csv,V4 gene panel,Final 20-gene subject-to-XCI panel required by score construction
+resources/xci_subject_gene_panel_audit.csv,Gene-panel audit,Final panel expression and methylation coverage audit
